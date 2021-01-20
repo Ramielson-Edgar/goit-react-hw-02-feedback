@@ -1,0 +1,21 @@
+.container {
+    margin-bottom: 0px;
+    width: 300px;
+}
+.notify {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 100px;
+    background-color: rgb(233, 153, 153);
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 3px;
+    transition: 0.2s ease-in;
+    opacity: 1
+}
+.notify:hover {
+     box-shadow: 5px 10px 17px rgba(233, 153, 153, 0.2);
+}
